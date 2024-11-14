@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="/smartclass2/registration.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header><B><U>Registration form</U></B></header>
+      <form   class="form">
+        <div class="input-box">
+    
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+         
+        <div class="input-box">
+    
+          <input type="text" placeholder="Enter father's name" required />
+
+        </div>
+
+        <div class="input-box">
+    
+          <input type="text" placeholder="Enter mothers name" required />
+        
+        </div>
+        <div class="input-box">
+        
+          <input type="text" placeholder="Enter email address" required />
+          <a href="/smartclass2/otp.html">
+          <button type="button"> verify</button>
+        </a>
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+          <div class="input-box">
+            <input type="date" placeholder="Enter birth date" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Gender</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">prefer not to say</label>
+            </div>
+          </div>
+              <BR>
+        
+                <div class="select-box">
+                  <select>
+                    <option hidden>INSTITUE</option>
+                    <option>KGP</option>
+                    <option>SSM</option>
+                    <option>JAMMU PLYTHENIC</option>
+                    <option>WPS</option>
+                  </select>
+
+
+                <div class="select-box">
+              <select>
+                <option hidden>SEMESTER</option>
+                <option>I</option>
+                <option>II</option>
+                <option>III</option>
+                <option>IV</option>
+                <option>V</option>
+                <option>VI</option>
+              </select>
+            
+        </div>
+        <a href="/smartclass2/thankyou.html">
+       <button type="button">Submit</button>
+      </a>
+      </div>
+      </form>
+    </section>
+  </body>
+</html>
